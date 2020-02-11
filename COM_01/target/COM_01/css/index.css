@@ -1,0 +1,111 @@
+a{
+    text-decoration: none;
+    color:#166ac4;
+    font-weight: bold;
+
+}
+/*ahref{*/
+
+/*}*/
+#span{
+    font-size: 38px;
+    line-height: 100px;
+}
+#div_out{
+    width:1150px;
+    height: 130px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border: 8px #dce6dc80 solid;
+}
+#wrap{
+    width:1150px;
+    height: 550px;
+    display: block;
+    margin:0 auto;
+    border: 8px #dce6dc80 solid ;
+}
+.head .headMenu{
+    width: 160px;
+    height:530px;
+    float: left;
+    border:1px #d9c9c973 solid;
+    border-radius:3px;
+    background: #121213bd;
+    margin: 2px;
+}
+.head .headMenu li{
+    display: block;
+    /*padding: 30px;*/
+    padding-top: 95px;
+}
+.head .headMenu li a{
+    /*float:left;*/
+    /*padding:0 40px;*/
+    font-size:20px;
+    margin-left: 18px;
+}
+.head .headMenu li a:hover{
+    /*鼠标停留在a标签的字体颜色*/
+    color:#131313 ;
+}
+.tab_container{
+    float: right;
+    margin: 2px;
+    text-align: center;
+    width: 964px;
+    height:530px;
+    background-color: white;
+    /*line-height: 150px;*/
+    border:1px solid #e3e3e3;
+}
+#wrap .head .headMenu .active a{
+    /*点击a标签是的字体颜色*/
+    color:#d21616;
+}
+#header1{
+    float: left;
+    width: 160px;
+    height: 110px;
+    margin: 2px;
+    border: 1px #d9c9c973 solid;
+}
+#header2{
+    float: right;
+    width: 964px;
+    height: 110px;
+    margin: 2px;
+    border: 1px #d9c9c973 solid;
+    line-height: 50px;
+    text-align: center;
+}
+#imgs{
+    width: 152px;
+    height: 102px;
+    margin-top: 2px;
+}
+#box1{
+    width: 958px;
+    height: 526px;
+    /*border:1px solid blue;*/
+    margin:2px;
+}
+#box2{
+    width: 958px;
+    height: 526px;
+    /*border:1px solid blue;*/
+    margin:2px;
+}
+#light1{
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin: 150px;
+}
+#light2{
+    width: 150px;
+    height: 200px;
+    float: right;
+    margin: 150px;
+}

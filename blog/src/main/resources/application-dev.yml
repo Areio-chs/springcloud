@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: huishan123
+
+
+#    简化数据库操作相关的所有操作
+  jpa:
+    hibernate:
+#      每次连接数据库比对当前项目实体对象与数据库字段是否一样，如果实体类对象字段修改，他会自动更新同步表结构
+      ddl-auto: update
+#      可以把sql语句输出在控制台以及日志文件里面
+    show-sql: true
+
+logging:
+#  日志级别
+  level:
+    root: info
+    com.lrm: debug
+#    放日志文件生成的位置，默认超过一定大小会自动切分，这里是自定义根据日期切分，在logback-spring.xml里面重写配置
+  file: log/blog-dev.log
+#  file:log/blog.log 这是默认的  按大小切分 就不需要那个配置文件了
+
+
+
