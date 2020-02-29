@@ -71,7 +71,7 @@
         <module>Pro15-spring-cloud-provider-dept-8001</module>
         <module>Pro16-spring-cloud-consumer-dept-80</module>
         <module>Pro17-spring-cloud-eureka-7000</module>
-        <module>Pro17-spring-cloud-eureka-7001</module>
+        <!--<module>Pro17-spring-cloud-eureka-7001</module>-->
         <!--<module>Pro15-spring-cloud-provider-dept-8001</module>-->
         <!--<module>Pro16-spring-cloud-consumer-dept-80</module>-->
         <!--<module>Pro17-spring-cloud-eureka-7000</module>-->
